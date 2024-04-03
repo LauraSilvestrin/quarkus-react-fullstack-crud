@@ -4,7 +4,6 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import org.acme.entity.Pessoa;
-import org.acme.repository.PessoaRepository;
 import org.acme.service.PessoaService;
 import java.util.ArrayList;
 import java.util.List;
@@ -61,6 +60,7 @@ public class PessoaController {
 
         // Atualizando os dados da pessoa
         existingPessoa.setNome(updatedPessoa.getNome());
+        existingPessoa.setNumero(updatedPessoa.getNumero());
         existingPessoa.setEmail(updatedPessoa.getEmail());
 
         // Salvando os dados atualizados

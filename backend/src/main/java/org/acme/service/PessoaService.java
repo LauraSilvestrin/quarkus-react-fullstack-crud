@@ -3,11 +3,7 @@ package org.acme.service;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
-import jakarta.validation.constraints.AssertTrue;
 import jakarta.ws.rs.NotFoundException;
-import jakarta.ws.rs.PUT;
-import jakarta.ws.rs.Path;
-import jakarta.ws.rs.PathParam;
 import org.acme.entity.Pessoa;
 import org.acme.repository.PessoaRepository;
 
@@ -48,7 +44,7 @@ public class PessoaService {
 
         // Atualize as propriedades da Pessoa existente
         existingPessoa.setNome(updatedPessoa.getNome());
-        existingPessoa.setIdade(updatedPessoa.getIdade());
+        existingPessoa.setNumero(updatedPessoa.getNumero());
         existingPessoa.setEmail(updatedPessoa.getEmail());
     }
 

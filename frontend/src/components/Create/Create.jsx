@@ -41,7 +41,7 @@ function Create() {
                     <label>Telefone:</label>
                     <InputMask mask="(99) 99999-9999" name="numero" value={pessoa.numero} onChange={(e) => handleChange(e)} /><div className="opcoes">
                         <Link to='/'>
-                            <button className="button" type="submit">Cancelar</button>
+                            <button className="button">Cancelar</button>
                         </Link>
                         <button className="button" type="submit">Enviar</button>
                     </div>

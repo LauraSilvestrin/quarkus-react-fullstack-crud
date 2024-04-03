@@ -1,7 +1,6 @@
 package org.acme.entity;
 
 import jakarta.persistence.Entity;
-import jdk.jfr.DataAmount;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.Data;
@@ -15,6 +14,6 @@ public class Pessoa {
     @GeneratedValue
     private Long id;
     private String nome;
-    private Integer idade;
+    private String numero;
     private String email;
 }
