@@ -1,10 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import '../src/components/Static/Css/main.css';
-import '../src/components/Static/Css/button.css';
-import '../src/components/Static/Css/settings.css'
-import '../src/components/Button/floatButton.css'
 import Card from "./components/Card/Card";
 import { FaPlus } from "react-icons/fa";
 
