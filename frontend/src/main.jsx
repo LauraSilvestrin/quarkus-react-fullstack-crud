@@ -8,6 +8,9 @@ import {
   RouterProvider
 } from 'react-router-dom'
 import './index.css'
+import './components/Static/Css/floatButton.css';
+import  './components/Static/Css/main.css';
+import './components/Static/Css/settings.css';
 import './components/Button/button.jsx'
 
 const router = createBrowserRouter([
