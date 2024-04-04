@@ -11,7 +11,7 @@
 ### Backend
 
 1. Navegue até o diretório do backend.
-2. `.mvnw dependency:resolve`
+2. `./mvnw dependency:resolve`
 2. Execute o comando `./mvnw quarkus:dev` para iniciar o servidor Quarkus.
 
 ### Frontend
