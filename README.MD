@@ -11,8 +11,8 @@
 ### Backend
 
 1. Navegue até o diretório do backend.
-2. `./mvnw dependency:resolve`
-2. Execute o comando `./mvnw quarkus:dev` para iniciar o servidor Quarkus.
+2. abra um terminal integrado e execute `mvn clean install` e depois `mvn resolve:dependency` 
+3. Execute o comando `mvn quarkus:dev` para iniciar o servidor Quarkus.
 
 ### Frontend
 
@@ -20,4 +20,4 @@
 2. Execute `npm install` para instalar as dependências.
 3. Execute `npm run dev` para iniciar o servidor de desenvolvimento do React.
 
-Agora você deve ser capaz de acessar a aplicação em `http://localhost:5173`.
+Agora você deve ser capaz de acessar a aplicação clicando no link que irá aparecer no seu terminal.
